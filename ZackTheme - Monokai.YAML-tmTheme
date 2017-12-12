@@ -60,6 +60,7 @@ settings:
     fontStyle: italic
     foreground: '#66D9EF'
 
+# Class related styling
 - name: Class name
   scope: entity.name.class
   settings:
@@ -70,6 +71,11 @@ settings:
   scope: entity.other.inherited-class
   settings:
     fontStyle: italic underline
+    foreground: '#A6E22E'
+
+- name: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
+  scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
+  settings:
     foreground: '#A6E22E'
 
 - name: Function name

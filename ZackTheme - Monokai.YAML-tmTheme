@@ -115,7 +115,7 @@ settings:
     foreground: '#66D9EF'
 
 - name: Library constant
-  scope: support.constant
+  scope: support.constant, constant.other
   settings:
     fontStyle: ''
     foreground: '#66D9EF'

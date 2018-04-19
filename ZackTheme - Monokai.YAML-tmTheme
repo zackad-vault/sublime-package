@@ -3,6 +3,11 @@ name: ZackTheme - Monokai
 comment: Modified version of monokai theme
 uuid: 6a31640b-8b3b-40f3-a2f1-8d9b0ea58c0e
 
+# Colors Name
+white: &white '#FFFFFF'
+orange: &orange '#FD971F'
+lightblue: &lightblue '#66D9EF'
+
 settings:
 - settings:
     background: '#000000'
@@ -143,3 +148,24 @@ settings:
   settings:
     background: '#AE81FF'
     foreground: '#F8F8F0'
+
+# Twig Styling
+- name: Tags
+  scope: punctuation.section.tag.twig
+  settings:
+    foreground: *lightblue
+
+- name: Variable Property
+  scope: variable.other.property.twig
+  settings:
+    foreground: *orange
+
+- name: Variable Name
+  scope: variable.other.twig
+  settings:
+    foreground: *white
+
+- name: Block Name
+  scope: meta.tag.template.block.twig variable.other.twig
+  settings:
+    foreground: *orange

@@ -2,18 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>name</key>
+	<string>include</string>
+	<key>uuid</key>
+	<string>2c4e610e-a739-4b2f-a4f4-8b8d17117e7e</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>include</string>
 	<key>content</key>
-	<dict>
-		<key>name</key>
-		<string>include</string>
-		<key>uuid</key>
-		<string>2c4e610e-a739-4b2f-a4f4-8b8d17117e7e</string>
-		<key>scope</key>
-		<string>text.html.twig</string>
-		<key>tabTrigger</key>
-		<string>include</string>
-		<key>content</key>
-		<string>{% include '${1:template}'${2: ignore missing}${3: with ${4:vars}${5: only}} %}$0</string>
-	</dict>
+	<string>{% include '${1:template}'${2: ignore missing}${3: with ${4:vars}${5: only}} %}$0</string>
 </dict>
 </plist>

@@ -1,0 +1,7 @@
+# [PackageDev] target_format: plist, ext: tmSnippet
+content:
+  name: include
+  uuid: 2c4e610e-a739-4b2f-a4f4-8b8d17117e7e
+  scope: text.html.twig
+  tabTrigger: include
+  content: "{% include '${1:template}'${2: ignore missing}${3: with ${4:vars}${5: only}} %}$0"

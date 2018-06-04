@@ -1,0 +1,6 @@
+# [PackageDev] target_format: plist, ext: tmSnippet
+name: embed
+uuid: b29fb8f7-a4ed-43fe-ad4f-ff4f1c208770
+scope: text.html.twig
+tabTrigger: eb
+content: "{% embed '${1:template}'${2: ignore missing}${3: with ${4:vars}${5: only}} %}$0{% endembed %}"
